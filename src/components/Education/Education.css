@@ -1,0 +1,143 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+    grid-template-rows: 100vh;
+    transition: grid-template-columns 0.3s ease; /* Agregar transición para una animación suave */
+  }
+
+  .containerexp {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100vh;
+    transition: grid-template-columns 0.3s ease; /* Agregar transición para una animación suave */
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /*background-image: url('https://t4.ftcdn.net/jpg/00/96/92/29/360_F_96922988_hnBkHlAj4PCEPpAxDgl8OrOJKbwI2ESZ.jpg');*/
+    background-size: cover;
+  }
+
+  .item4ed{
+    background-image: url('https://www.uc3m.es/grado/media/grado/img/grande/reducida/ig_fisica-industriales/1371285951843.jpg');
+  }
+  .item3ed{
+    background-image: url('https://i0.wp.com/eos.org/wp-content/uploads/2020/07/data-streams-eos-august.png?fit=820%2C615&ssl=1');
+  }
+  .item2ed{
+    background-image: url('https://www.redeweb.com/wp-content/uploads/2023/10/electronica-digital-scaled.jpg');
+  }
+  .item1ed{
+    background-image: url('https://infotepusa.com/wp-content/uploads/2023/04/xe-e69j6-ds.jpg    ');
+  }
+
+  .item5ex{
+    background-image: url('https://kodigo.org/wp-content/uploads/2023/07/experiencia-programacion-persona-que-trabaja-codigos-computadora-1024x683.jpg');
+  }
+  .item4ex{
+    background-image: url('https://chennai.vit.ac.in/wp-content/uploads/2021/08/Types-of-Software-Developer.jpg');
+  }
+  .item3ex{
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*2bNy0730VhbWc2-9PUiBdA.png');
+  }
+  .item2ex{
+    background-image: url('https://rms.koenig-solutions.com/Sync_data/CCE_Logo/2810-commentspython.jpgL.jpg');
+  }
+  
+  
+  .item h1 {
+    margin: 0;
+    font-size: 35px;
+  }
+
+
+  .item h2 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .item h3 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .item h4 {
+    margin: 0;
+    font-size: 22px;
+  }
+
+
+  .expanded1 {
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }  
+
+  .expanded2 {
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded3 {
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded4 {
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .nonselected{
+    display: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: none !important;
+      grid-template-rows: auto;
+      height: auto;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .responsive-separator {
+      width: 60%;
+      height: 3px;
+      background-color: var(--main-color);
+      margin: 2rem auto;
+      border-radius: 2px;
+      opacity: 0.8;
+    }
+    
+  
+    .item {
+      height: auto;
+      min-height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .item h1, .item h2, .item h3, .item h4 {
+      font-size: 2.4rem;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    /* Desactiva transiciones de grid en móvil */
+    .container,
+    .expanded1,
+    .expanded2,
+    .expanded3,
+    .expanded4,
+    .expanded5 {
+      transition: none;
+      grid-template-columns: none;
+    }
+  }
+  

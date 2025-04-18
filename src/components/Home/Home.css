@@ -1,0 +1,234 @@
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+  }
+  
+  .home {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    gap: 2rem;
+  }
+  
+  .home-img img {
+    width: 35vw;
+    animation: floatImage 4s ease-in-out infinite;
+  }
+  
+  .home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
+  .home-content .text-animate {
+    position: relative;
+    width: 65rem;
+  }
+  
+  .home-content .text-animate h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 0.7px var(--main-color);
+  }
+  
+  .home-content p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-right: 5rem;
+    margin-left: 0;
+  }
+  
+  .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 34.5rem;
+    height: 5rem;
+  }
+  
+  .btn-box .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* -------- BOTÓN 1: Get my CV -------- */
+  .btn-box .btn:first-child {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+  }
+  
+  .btn-box .btn:first-child::before {
+    background-color: var(--bg-color); /* se vuelve oscuro */
+  }
+  
+  .btn-box .btn:first-child:hover {
+    color: var(--main-color);
+  }
+  
+  .btn-box .btn:first-child:hover::before {
+    width: 100%;
+  }
+  
+  /* -------- BOTÓN 2: Contact me -------- */
+  .btn-box .btn:nth-child(2) {
+    background-color: transparent;
+    color: var(--main-color);
+  }
+  
+  .btn-box .btn:nth-child(2)::before {
+    background-color: var(--main-color); /* se vuelve azul */
+  }
+  
+  .btn-box .btn:nth-child(2):hover {
+    color: var(--bg-color);
+  }
+  
+  .btn-box .btn:nth-child(2):hover::before {
+    width: 100%;
+  }
+  
+  /* Fondo animado base */
+  .btn-box .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .home-sci {
+    position: absolute;
+    bottom: 4rem;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 30px;
+    color: var(--main-color);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  .home-sci a:hover {
+    color: var(--bg-color);
+  }
+  
+  .home-sci a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .home-sci a:hover::before {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+
+    section {
+      min-height: auto !important;
+      padding: 10rem 9% 2rem;
+    }
+    
+    .home {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+  
+    .home-content {
+      width: 100%;
+    }
+  
+    .home-content h1 {
+      font-size: 3.6rem;
+      word-break: break-word;
+    }
+  
+    .home-content .text-animate {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .home-content .text-animate h3 {
+      font-size: 2.4rem;
+      -webkit-text-stroke: 0.5px var(--main-color);
+    }
+  
+    .home-content p {
+      font-size: 1.4rem;
+      margin: 2rem 0;
+      padding: 0 1rem;
+    }
+  
+    .btn-box {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    .btn-box .btn {
+      width: 80%;
+    }
+  
+    .home-sci {
+      position: static;
+      margin-top: 3rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+    }
+  
+    .home-img img {
+      width: 60vw;
+      margin-top: 2rem;
+    }
+  }
+  
+  

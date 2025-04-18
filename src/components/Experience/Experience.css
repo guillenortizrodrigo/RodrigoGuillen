@@ -1,0 +1,119 @@
+  .containerexp {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 100vh;*/
+    transition: grid-template-columns 0.3s ease; /* Agregar transición para una animación suave */
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-position: 30% 40%;
+  }
+
+
+  .item6ex{
+    background-image: url('https://www.apexestructuras.com/img/proyectos/04-alttus/alttus-3.jpg');
+  }
+  .item5ex{
+    background-image: url('https://assets.easybroker.com/property_images/2356855/36583672/EB-IA6855.jpg?version=1626886818');
+  }
+  .item4ex{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGq6Fkbiy5mRQkVykgBx3hcSgLGJaM0WbLrw&s');
+  }
+  .item3ex{
+    background-image: url('../../assets/aumenta.png');
+  }
+  .item2ex{
+    background-image: url('https://www.techmonitor.ai/wp-content/uploads/sites/29/2021/03/shutterstock_520693948.webp');
+  }
+  
+  .item h1 {
+    margin: 0;
+    font-size: 35px;
+  }
+
+  .item h2 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .item h3 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .item h4 {
+    margin: 0;
+    font-size: 22px;
+  }
+
+
+  .expanded1 {
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }  
+
+  .expanded2 {
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded3 {
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded4 {
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .expanded6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr; /* Cambiar el grid del contenedor cuando está expandido */
+  }
+
+  .nonselected{
+    display: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+
+      .item5ex {
+        display: flex !important;
+      }
+    
+    
+    .containerexp {
+      display: flex !important;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      height: auto !important;
+      overflow-y: visible !important;
+      overflow-x: hidden !important;
+    }
+  
+    .item {
+      min-height: 200px;
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+  
+
+    .expanded1,
+    .expanded2,
+    .expanded3,
+    .expanded4,
+    .expanded5,
+    .expanded6 {
+      transition: none !important;
+      grid-template-columns: none !important;
+    }
+  }
+  
