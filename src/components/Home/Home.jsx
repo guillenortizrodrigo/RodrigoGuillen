@@ -19,14 +19,15 @@ function Home() {
                     <h3>Fullstack and Machine Learning Developer</h3>
                 </div>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centurie
+                    I'm a machine learning specialist and full-stack web developer with a passion for creating intelligent, end-to-end solutions. 
+                    My expertise in deep learning frameworks like TensorFlow helps me transform complex data into innovative AI applications. 
+                    I also have extensive experience building robust web applications with React and Django, ensuring seamless and responsive user experiences. 
+                    Leveraging Docker for containerization and Azure for cloud infrastructure, I deploy scalable systems and rely on PostgreSQL for reliable data management. My versatile skill set also extends to mobile development on Android and iOS, and I maintain high code quality with Git for version control.
+                    I approach each project with a confident, innovative mindset and a career-focused commitment to continuous learning, striving to deliver impactful, cutting-edge solutions.
                 </p>
                 <div className="btn-box">
-                    <a href="#about" className="btn">Get my CV</a>
-                    <a href="#education" className="btn">Contact me</a>
+                    <a href="/RodrigoGuillenOrtiz.pdf" className="btn" target="_blank" rel="noreferrer">Get my CV</a>
+                    <a href="mailto:rodrigoguillenortiz@gmail.com" className="btn">Contact me</a>
                 </div>
 
                 <div className="home-sci">

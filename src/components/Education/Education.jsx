@@ -31,30 +31,34 @@ function Education() {
 
   const cards = [
     {
-      title: "Automative Mechanics",
-      place: "Cedva",
-      duration: "2017 - 2019",
+      title: "Technician in Automotive Mechanics",
+      place: "Grupo CEDVA",
+      duration: "2017 – 2019",
+      description: "Trained in combustion engine systems and mechanical diagnostics. Developed technical skills in vehicle maintenance and repair, with a specialization in gasoline-powered engines.",
       item: "item1",
       expanded: "expanded1"
     },
     {
-      title: "Diploma at Electronics",
-      place: "Instituto de Investigacion en Comunicacion Optica",
-      duration: "2019 - 2020",
+      title: "Diploma in Electronic Instrumentation and Solar Energy",
+      place: "Instituto de Investigación en Comunicación Óptica, UASLP",
+      duration: "2019 – 2020",
+      description: "Acquired knowledge in solar energy systems, electronic circuit design, and instrumentation tools. Focused on hands-on applications and sustainability projects related to renewable energy.",
       item: "item2",
       expanded: "expanded2"
     },
     {
-      title: "Diploma at Machine Learning",
-      place: "Universidad Anahuac",
-      duration: "2023 - 2024",
+      title: "Diploma in Machine Learning and Artificial Neural Networks",
+      place: "Universidad Anáhuac México",
+      duration: "2023 – 2024",
+      description: "Completed training in machine learning fundamentals, neural networks, and deep learning techniques. Gained hands-on experience with Python, TensorFlow, and real-world projects involving data classification, image recognition, and prediction models.",
       item: "item3",
       expanded: "expanded3"
     },
     {
-      title: "Ingeniero Fisico",
-      place: "Universidad Autonoma de San Luis Potosi",
-      duration: "2016 - 2020",
+      title: "Bachelor's Degree in Physics Engineering",
+      place: "Universidad Autónoma de San Luis Potosí",
+      duration: "2016 – 2020",
+      description: "Comprehensive training in advanced mathematics, physics, and computer science. Gained strong foundations in electronics, signal processing, and scientific programming, which later enabled a smooth transition into AI and machine learning.",
       item: "item4",
       expanded: "expanded4"
     }
@@ -78,13 +82,7 @@ function Education() {
           title={card.title}
           place={card.place}
           duration={card.duration}
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum."
+          description={card.description}
           selectedItem={selectedItem}
           handleHover={handleHover}
           item={card.item}

@@ -9,8 +9,8 @@ export default function Footer() {
             <div className="footer-container">
                 <div className="footer-info">
                     <h3>Rodrigo Guillén</h3>
-                    <p>Email: <a href="mailto:rodrigo@example.com">rodrigo@example.com</a></p>
-                    <p>Teléfono: <a href="tel:+5215555555555">+52 1 555 555 5555</a></p>
+                    <p>Email: <a href="mailto:rodrigoguillenortiz@gmail.com">rodrigoguillenortiz@gmail.com</a></p>
+                    <p>Teléfono: <a href="https://wa.me/524444926486?text=Hi%20Rodrigo,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch!">+52 444 492 6486</a></p>
                 </div>
                 <div className="footer-links">
                     <a

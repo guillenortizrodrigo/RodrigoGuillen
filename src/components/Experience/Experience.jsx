@@ -24,14 +24,11 @@ function Experience() {
         <Card
           title="Machine Learning Engineer"
           place="Microsoft"
-          duration="2017 - 2019"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum."
+          duration="2024 – 2025"
+          description="Provided technical support to clients and partners in 
+          implementing AI solutions using Azure Machine Learning. Built models 
+          from scratch and fine-tuned pre-trained models based on specific business needs. 
+          Collaborated with cross-functional teams to optimize workflows and ensure seamless model deployment at scale."
           selectedItem={selectedItem}
           handleHover={handleHover}
           item="item2"
@@ -41,14 +38,10 @@ function Experience() {
         <Card
           title="Fullstack Developer"
           place="Aumenta/Somesante"
-          duration="2019 - 2020"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum."
+          duration="2025"
+          description="Developed a clean architecture system using Angular for the frontend and .NET for the backend.
+           Participated in technical planning, performance optimization, and UX enhancements. Followed Scrum methodology and used 
+           Azure DevOps for task management and continuous delivery."
           selectedItem={selectedItem}
           handleHover={handleHover}
           item="item3"
@@ -56,16 +49,12 @@ function Experience() {
           section="ex"
         />
         <Card
-          title="Sales and Software Developer"
+          title="Sales and Software Engineer"
           place="Aumenta Filestack"
-          duration="2023 - 2024"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum."
+          duration="2022 – 2024"
+          description="Built web and mobile applications with Node.js, Express, Ext JS, React, Swift, and Android Studio.
+           Designed data visualizations and developed an AI model for customer retention analysis. Provided client support, 
+           hosted webinars, and created technical content for training and onboarding."
           selectedItem={selectedItem}
           handleHover={handleHover}
           item="item4"
@@ -75,14 +64,9 @@ function Experience() {
         <Card
           title="Fullstack Developer"
           place="Laconta"
-          duration="2016 - 2020"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum."
+          duration="2021 – 2022"
+          description="Worked on web and mobile development projects using Django, React, React Native, and Android Studio.
+           Integrated Google APIs, implemented custom features, and used Git for version control and collaboration across the development team."
           selectedItem={selectedItem}
           handleHover={handleHover}
           item="item5"
@@ -91,15 +75,11 @@ function Experience() {
         />
         <Card
           title="Software Developer"
-          place="Microsoft"
-          duration="2017 - 2019"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum."
+          place="Enercon"
+          duration="2020 – 2021"
+          description="Developed a robust product and automation system for service stations deployed in over 25 locations in Mexico.
+           Built tools with Python, Django, and React, and implemented a modern Android-based payment system that led to significant monthly savings. 
+           Used Git for version control across all projects."
           selectedItem={selectedItem}
           handleHover={handleHover}
           item="item6"
